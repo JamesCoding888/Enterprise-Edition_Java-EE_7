@@ -8,7 +8,7 @@
 </head>
 <body>
 	
-	<h1>The Main Languages of the Web.</h1>
+	<h1>The Main Languages of the Web</h1>
 		
 		5/5 = <%= 5/5 %> <p>5/5 = <%= 5/5 %> <p>5/5 = <%= 5/5 %> <p><p><p><p><p><p> -- <p> 只會有一個折行
 		6/1 = <%= 6/1 %> </br></br></br></br></br></br> 
