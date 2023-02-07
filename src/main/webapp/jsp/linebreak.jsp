@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>The demonstration of "<br> tag", to insert a single line break.</title>
+<title>The demonstration of <br> and <p> tag, to insert line break.</title>
 </head>
 <body>
 	
