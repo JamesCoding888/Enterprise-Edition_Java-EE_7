@@ -18,7 +18,7 @@
 	<br>
 	<% out.print(new java.util.Date()); %>
 	<p>
-	<%= new Date() %>
+	<%= new Date() %> <!-- equals to out.print(new Date()) -->
 	
 </body>
 </html>

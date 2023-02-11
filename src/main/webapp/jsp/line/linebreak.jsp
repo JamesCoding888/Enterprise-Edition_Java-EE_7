@@ -9,9 +9,14 @@
 <body>
 	
 	<h1>The Main Languages of the Web</h1>
-		
-		5/5 = <%= 5/5 %> <p>5/5 = <%= 5/5 %> <p>5/5 = <%= 5/5 %> <p><p><p><p><p><p> -- <p> 只會有一個折行
-		6/1 = <%= 6/1 %> </br></br></br></br></br></br> 
+		<p>5/5 = <%= 5/5 %></p> <!-- 只會有一個折行 -->
+		<p>6/5 = <%= 6/5 %></p>
+		<p>
+		<p>
+		<p>
+		<p>3/3 = <%= 3/3 %></p>
+		 
+		6/1 = <%= 6/1 %> <br><br><br><br><br><br> 
 	<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. 
 	HTML elements tell the browser how to display the content.</p>
 	
