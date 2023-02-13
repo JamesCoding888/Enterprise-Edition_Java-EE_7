@@ -1,4 +1,4 @@
-package javaWebEE.hr;
+package javaWebEE.hr.model;
 import java.util.Objects;
 
 public class Employee {
@@ -10,25 +10,28 @@ public class Employee {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
 	public Employee(String badge, String name) {
 		super();
 		this.badge = badge;
 		this.name = name;
 	}
+	
 	public String getBadge() {
 		return badge;
 	}
+	
 	public void setBadge(String badge) {
 		this.badge = badge;
 	}
+	
 	public String getName() {
 		return name;
 	}
+	
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
 	
 	@Override
 	public int hashCode() {
@@ -51,5 +54,4 @@ public class Employee {
 	public String toString() {
 		return "Employee [badge=" + badge + ", name=" + name + "]";
 	}
-	
 }

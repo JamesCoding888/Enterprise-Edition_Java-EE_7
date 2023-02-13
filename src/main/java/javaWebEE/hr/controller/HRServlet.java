@@ -1,13 +1,17 @@
-package javaWebEE.hr;
-
-import java.io.IOException;
+package javaWebEE.hr.controller;
+ 
+import java.io.IOException; 
 import java.io.PrintWriter;
+
+import javaWebEE.hr.model.Employee;
+import javaWebEE.hr.service.HRService;
 import javax.ejb.EJB;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 
 @WebServlet(name = "HR", urlPatterns = "/hr")
 public class HRServlet extends HttpServlet {
@@ -26,7 +30,7 @@ public class HRServlet extends HttpServlet {
 		System.out.println(name);		
 		// Create an object of emp to query the value of badgeId from Database
 		Employee emp = hrService.findEmployee(badgeId);
-		// get the object of emp if badgeId existence,  then set the name of badgeId that end-users expected to be
+		// Get the object of emp if badgeId existence, then set the name of badgeId that end-users expected to be
 		emp.setName(name);
 		// Proceed the transaction on HRService class
 		hrService.updateEmployee(emp);
