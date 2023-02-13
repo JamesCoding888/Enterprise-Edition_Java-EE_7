@@ -1,1 +1,1 @@
-# Enterprise-Edition_Java-EE_7
+# Enterprise-Edition_Java-Web-EE 7
