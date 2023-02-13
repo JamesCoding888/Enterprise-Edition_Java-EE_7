@@ -12,5 +12,13 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>welcome.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  	
+  </servlet>
+  
+
+  
+  
 
 </web-app>
