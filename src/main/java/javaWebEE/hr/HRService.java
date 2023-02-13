@@ -21,7 +21,7 @@ public class HRService {
 		Context ctx = new InitialContext();
 		UserTransaction userTransaction = ctx.lookup("java:comp/UserTransaction");
 		userTransaction.begin();
-		entityManager.merge(null);
+		entityManager.merge(emp);
 		userTransaction.commit();
 	}	
 }

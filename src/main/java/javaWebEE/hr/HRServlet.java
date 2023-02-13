@@ -15,6 +15,7 @@ public class HRServlet extends HttpServlet {
 	@EJB
 	private HRService hrService;
 	
+	// Notice here ! This method of doGet, is NOT Security because the information of badge and name will be presented on url-address
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException{
 		// Get the parameters from front-end
 		String badgeId = req.getParameter("badge");
@@ -22,8 +23,7 @@ public class HRServlet extends HttpServlet {
 		// Console on local server
 		PrintWriter out = res.getWriter();
 		System.out.println(badgeId);
-		System.out.println(name);
-		
+		System.out.println(name);		
 		// Create an object of emp to query the value of badgeId from Database
 		Employee emp = hrService.findEmployee(badgeId);
 		// get the object of emp if badgeId existence,  then set the name of badgeId that end-users expected to be
