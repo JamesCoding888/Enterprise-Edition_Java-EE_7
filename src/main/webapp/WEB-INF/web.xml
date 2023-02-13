@@ -13,12 +13,15 @@
     <welcome-file>welcome.jsp</welcome-file>
   </welcome-file-list>
   
+  <!-- Instantiate Entity of HRServlet --> 
   <servlet>
-  	
+  	<servlet-name>HR</servlet-name>
+  	<servlet-class>javaWebEE.hr.controller.HRServlet</servlet-class>
   </servlet>
   
-
-  
-  
+  <servlet-mapping>
+  	<servlet-name>HR</servlet-name>
+  	<url-pattern>/hr</url-pattern>
+  </servlet-mapping>
 
 </web-app>
