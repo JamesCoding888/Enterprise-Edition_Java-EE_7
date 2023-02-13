@@ -12,7 +12,13 @@ import javax.servlet.http.HttpServletResponse;
 public class HRServlet extends HttpServlet {
 	
 	@EJB
-	private HRService HrService;
+	private HRService hrService;
 	
-
+	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException{
+		String badgeId = req.getParameter("badge");
+		String name = req.getParameter("name");
+		Employee emp = hrService.findEmployee(badgeId);
+		emp.setName(name);
+		hrService.updateEmployee(emp);
+	}
 }
