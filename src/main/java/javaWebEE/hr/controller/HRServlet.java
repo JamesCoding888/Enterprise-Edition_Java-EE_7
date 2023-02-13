@@ -46,6 +46,11 @@ public class HRServlet extends HttpServlet {
 		// Get the object of emp if badgeId existence, then set the name of badgeId that end-users expected to be
 		emp.setName(name);
 		// Proceed the transaction on HRService class
-		hrService.updateEmployee(emp);
+		try {
+			hrService.updateEmployee(emp);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

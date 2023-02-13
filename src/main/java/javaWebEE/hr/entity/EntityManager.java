@@ -6,7 +6,7 @@ public class EntityManager {
 	
 	// find (i.e., query)
 	public Employee find(Employee employee, String badgeId) {
-		// MySQL Syntax here ... 
+		 
 		return null;
 	}
 	

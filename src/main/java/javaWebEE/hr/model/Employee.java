@@ -1,10 +1,23 @@
 package javaWebEE.hr.model;
+import java.util.List;
 import java.util.Objects;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Employee {
 	
 	private String badge;
 	private String name;
+	
+	static {
+		List<Employee> list = new CopyOnWriteArrayList<>();
+		list.add(new Employee("1", "James"));
+		list.add(new Employee("2", "David"));
+		list.add(new Employee("3", "Marry"));
+		
+		String badgeName = list.get(0).getBadge();
+		System.out.println(badgeName);
+		
+	}
 	
 	public Employee() {
 		super();
