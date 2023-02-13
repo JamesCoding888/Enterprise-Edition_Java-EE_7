@@ -1,6 +1,6 @@
 package javaWebEE.hr;
 
-import java.io.IOException;
+import java.io.IOException; 
 
 import javax.ejb.EJB;
 import javax.servlet.ServletException;
@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "HR", urlPatterns = "/hr")
 public class HRServlet extends HttpServlet {
 	
-//	@EJB
-//	private HRService HrService;
+	@EJB
+	private HRService HrService;
 	
 
 }
