@@ -1,8 +1,8 @@
 package javaWebEE.hr;
 
-import javax.naming.Context;
-import javax.naming.InitialContext; // https://docs.oracle.com/javase/7/docs/api/javax/naming/InitialContext.html
-import javax.transaction.UserTransaction;
+import javax.naming.Context;               // https://docs.oracle.com/javase/7/docs/api/javax/naming/Context.html
+import javax.naming.InitialContext;        // https://docs.oracle.com/javase/7/docs/api/javax/naming/InitialContext.html
+import javax.transaction.UserTransaction;  
 
 public class HRService {
 	
