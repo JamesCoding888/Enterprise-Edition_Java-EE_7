@@ -1,6 +1,7 @@
 package javaWebEE.hr;
 
-import java.io.IOException; 
+import java.io.IOException;
+import java.io.PrintWriter;
 import javax.ejb.EJB;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,10 +16,19 @@ public class HRServlet extends HttpServlet {
 	private HRService hrService;
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException{
+		// Get the parameters from front-end
 		String badgeId = req.getParameter("badge");
-		String name = req.getParameter("name");
+		String name = req.getParameter("name");		
+		// Console on local server
+		PrintWriter out = res.getWriter();
+		System.out.println(badgeId);
+		System.out.println(name);
+		
+		// Create an object of emp to query the value of badgeId from Database
 		Employee emp = hrService.findEmployee(badgeId);
+		// get the object of emp if badgeId existence,  then set the name of badgeId that end-users expected to be
 		emp.setName(name);
+		// Proceed the transaction on HRService class
 		hrService.updateEmployee(emp);
 	}
 }
