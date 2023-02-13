@@ -1,7 +1,6 @@
 package javaWebEE.hr;
 
 import java.io.IOException; 
-
 import javax.ejb.EJB;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
