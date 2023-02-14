@@ -8,7 +8,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 
-@WebServlet(urlPatterns ="/Today")
+@WebServlet(urlPatterns ="/timestamp4numberrecord")
 public class TestServletOnlyWithoutFrontEnd extends GenericServlet{
 
 	@Override
