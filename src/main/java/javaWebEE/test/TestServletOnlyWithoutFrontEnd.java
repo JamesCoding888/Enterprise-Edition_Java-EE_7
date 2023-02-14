@@ -9,7 +9,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 
 @WebServlet(urlPatterns ="/Today")
-public class TestServlet extends GenericServlet{
+public class TestServletOnlyWithoutFrontEnd extends GenericServlet{
 
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {

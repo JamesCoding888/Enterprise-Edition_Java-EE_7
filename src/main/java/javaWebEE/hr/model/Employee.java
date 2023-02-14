@@ -14,8 +14,9 @@ public class Employee {
 		list.add(new Employee("2", "David"));
 		list.add(new Employee("3", "Marry"));
 		
-		String badgeName = list.get(0).getBadge();
-		System.out.println(badgeName);
+		String badgeId = list.get(0).getBadge();
+		String badgeName = list.get(0).getName();
+		System.out.println("[" + "badgeId: " + badgeId + " = " + "badgeName: " + badgeName + "]");
 		
 	}
 	
@@ -66,5 +67,9 @@ public class Employee {
 	@Override
 	public String toString() {
 		return "Employee [badge=" + badge + ", name=" + name + "]";
+	}
+	
+	public static void main(String[] args) {
+		
 	}
 }
