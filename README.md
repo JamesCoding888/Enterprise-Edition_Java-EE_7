@@ -10,9 +10,12 @@
 
 # <a href = "https://github.com/JamesCoding888/Enterprise-Edition_Java-EE_7/tree/master/src/main/java/javaWebEE/test">Back-end Environment Test:</a><br>
 > TestBackEndOnly.java <br>
+- Description: This sample code is going to inspect the Java Run-time Environment if it's functional work. 
 > TestConnection4MySQL.java <br>
+- Description: This sample code is going to inspect the back-end programming if can update the value of Table from Database.
 > TestServletWithFrontEndApplicationLayer.java.java <br>
-- Description: The sample codes are used to check out your operation of IDE if can run on Java Application or Servlet. <br>
+- Description: This sample code is going to inspect the operation of Server if workable, and also end-user can pass the number from front-end to back-end based on Http (i.e., the Application Layer of OSI model) <br>
+
 
 # Enterprise JavaBean, EJB
 > HRServlet.java (Continue ~)
