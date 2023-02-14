@@ -15,3 +15,6 @@
 - Description: The sample codes are used to check out your operation of IDE if can run on Java Application or Servlet. <br>
 
 
+> HRServlet.java (Continue ~)
+- Description:  ...
+
