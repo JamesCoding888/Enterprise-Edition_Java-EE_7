@@ -9,7 +9,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 
 @WebServlet(urlPatterns ="/timestamp4numberrecord")
-public class TestServletOnlyWithoutFrontEnd extends GenericServlet{
+public class TestServletWithFrontEndApplicationLayer extends GenericServlet{
 
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
