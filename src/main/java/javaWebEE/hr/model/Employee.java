@@ -8,17 +8,19 @@ public class Employee {
 	private String badge;
 	private String name;
 	
-	static {
-		List<Employee> list = new CopyOnWriteArrayList<>();
-		list.add(new Employee("1", "James"));
-		list.add(new Employee("2", "David"));
-		list.add(new Employee("3", "Marry"));
-		
-		String badgeId = list.get(0).getBadge();
-		String badgeName = list.get(0).getName();
-		System.out.println("[" + "badgeId: " + badgeId + " = " + "badgeName: " + badgeName + "]");
-		
-	}
+	/*
+		static {
+			List<Employee> list = new CopyOnWriteArrayList<>();
+			list.add(new Employee("1", "James"));
+			list.add(new Employee("2", "David"));
+			list.add(new Employee("3", "Marry"));
+			
+			String badgeId = list.get(0).getBadge();
+			String badgeName = list.get(0).getName();
+			System.out.println("[" + "badgeId: " + badgeId + " = " + "badgeName: " + badgeName + "]");
+			
+		}
+	*/
 	
 	public Employee() {
 		super();
@@ -67,9 +69,5 @@ public class Employee {
 	@Override
 	public String toString() {
 		return "Employee [badge=" + badge + ", name=" + name + "]";
-	}
-	
-	public static void main(String[] args) {
-		
 	}
 }
