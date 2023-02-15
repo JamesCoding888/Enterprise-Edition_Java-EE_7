@@ -13,8 +13,13 @@
 - Description: This sample code is going to inspect the Java Run-time Environment if it's functional work. 
 > TestConnection4MySQL.java <br>
 - Description: This sample code is going to inspect the back-end programming if can update the value of Table from Database.
-> TestServletWithFrontEndApplicationLayer.java.java <br>
+> webpage4ServerTestOnly.html
+- Description: This sample code merely test the server if workable.
+> TestSampleOfServlet.html <br>
+> TestServletWithFrontEndApplicationLayer.java <br>
 - Description: This sample code is going to inspect the operation of Server if workable, and also end-user can pass the number from front-end to back-end based on Http (i.e., the Application Layer of OSI model) <br>
+
+
 
 
 # Enterprise JavaBean, EJB
