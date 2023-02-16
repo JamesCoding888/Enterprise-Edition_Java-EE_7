@@ -8,7 +8,7 @@
 > Database:
 - MySQL 8.0.26
 
-# <a href = "https://github.com/JamesCoding888/Enterprise-Edition_Java-EE_7/tree/master/src/main/java/javaWebEE/test">Full-End Test:</a><br>
+# <a href = "https://github.com/JamesCoding888/Enterprise-Edition_Java-EE_7/tree/master/src/main/java/javaWebEE/test">Full-End Environment Test:</a><br>
 > TestBackEndOnly.java <br>
 - Description: This sample code is going to inspect the Java Run-time Environment if it's functional work. 
 > TestConnection4MySQL.java <br>
