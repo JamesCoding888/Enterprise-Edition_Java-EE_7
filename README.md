@@ -8,6 +8,10 @@
 > Database:
 - MySQL 8.0.26
 
+- Certificates
+<img width="203" alt="Oracle Certified Professional_Java EE 7 Application Developer" src="https://user-images.githubusercontent.com/83496093/236412420-c5ba4bfd-0dfc-4ce9-a2de-73843e2a9527.png">
+
+
 # <a href = "https://github.com/JamesCoding888/Enterprise-Edition_Java-EE_7/tree/master/src/main/java/javaWebEE/test">Full-End Environment Test:</a><br>
 > TestBackEndOnly.java <br>
 - Description: This sample code is going to inspect the Java Run-time Environment if it's functional work. 
