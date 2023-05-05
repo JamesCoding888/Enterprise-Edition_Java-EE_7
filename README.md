@@ -8,7 +8,7 @@
 > Database:
 - MySQL 8.0.26
 
-- Certificates
+> Certificates
 <img width="203" alt="Oracle Certified Professional_Java EE 7 Application Developer" src="https://user-images.githubusercontent.com/83496093/236412420-c5ba4bfd-0dfc-4ce9-a2de-73843e2a9527.png">
 
 
