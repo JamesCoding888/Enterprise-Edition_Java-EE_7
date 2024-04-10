@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Update Employee</title>
+	</head>
+			<script>
+			
+					const form = document.querySelector('form');
+				
+					form.addEventListener('submit', async (event) => {
+						event.preventDefault();
+				
+						const badgeId = form.badge.value;
+						const name = form.name.value;
+				
+						const response = await fetch(`/hr2?badge=${badgeId}&name=${name}`);
+				
+						if (response.ok) {
+							alert('Employee updated successfully!');
+						} else {
+							alert('Error updating employee');
+						}
+					});
+		
+			</script>
+			<body>
+				<form action="/javaWebEE/hr2" method="GET">
+					<label for="badge">Employee Badge ID:</label> 
+						<input type="text" id="badge" name="badge"><br> 
+					<label for="name">Employee Name:</label> 
+						<input type="text" id="name" name="name"><br> 
+						<input type="submit" value="Update Employee">
+				</form>
+			</body>
+</html>

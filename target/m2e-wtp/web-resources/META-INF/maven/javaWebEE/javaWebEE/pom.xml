@@ -19,7 +19,36 @@
 		<version>7.0</version>
 		<scope>provided</scope>
 	</dependency>
-  	
+
+	<!-- https://mvnrepository.com/artifact/javax.xml.ws/jaxws-api -->
+	<dependency>
+		<groupId>javax.xml.ws</groupId>
+		<artifactId>jaxws-api</artifactId>
+		<version>2.3.1</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
+	<dependency>
+		<groupId>org.apache.cxf</groupId>
+		<artifactId>cxf-rt-frontend-jaxws</artifactId>
+		<version>3.4.4</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.json/json -->
+	<dependency>
+		<groupId>org.json</groupId>
+		<artifactId>json</artifactId>
+		<version>20090211</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.avro/avro -->
+	<dependency>
+		<groupId>org.apache.avro</groupId>
+		<artifactId>avro</artifactId>
+		<version>1.8.2</version>
+	</dependency>
+
+  
   </dependencies>
   
   <build>
