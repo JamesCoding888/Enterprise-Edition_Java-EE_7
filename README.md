@@ -8,11 +8,23 @@
 > Database:
 - MySQL 8.0.26
 
-# <a href = "https://github.com/JamesCoding888/Enterprise-Edition_Java-EE_7/tree/master/src/main/java/javaWebEE/test">Back-end Environment Test:</a><br>
+> Certificates
+- <img width="203" alt="Oracle Certified Professional_Java EE 7 Application Developer" src="https://user-images.githubusercontent.com/83496093/236412420-c5ba4bfd-0dfc-4ce9-a2de-73843e2a9527.png">
+
+
+# <a href = "https://github.com/JamesCoding888/Enterprise-Edition_Java-EE_7/tree/master/src/main/java/javaWebEE/test">Full-End Environment Test:</a><br>
 > TestBackEndOnly.java <br>
+- Description: This sample code is going to inspect the Java Run-time Environment if it's functional work. 
 > TestConnection4MySQL.java <br>
-> TestServletWithFrontEndApplicationLayer.java.java <br>
-- Description: The sample codes are used to check out your operation of IDE if can run on Java Application or Servlet. <br>
+- Description: This sample code is going to inspect the back-end programming if can update the value of Table from Database.
+> webpage4ServerTestOnly.html
+- Description: This sample code merely tests the server if workable.
+> TestSampleOfServlet.html <br>
+> TestServletWithFrontEndApplicationLayer.java <br>
+- Description: This sample code is going to inspect the operation of Server if workable, and also end-user can pass the number from front-end to back-end based on Http (i.e., the Application Layer of OSI model) <br>
+
+
+
 
 # Enterprise JavaBean, EJB
 > HRServlet.java (Continue ~)
